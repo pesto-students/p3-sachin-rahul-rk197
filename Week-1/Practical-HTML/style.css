@@ -1,3 +1,81 @@
 body{
     font-family: 'Lato', sans-serif;
+    margin: 0;
+    position: relative;
+}
+ul{
+    list-style: none;
+}
+.side-bar{
+    background-color: #F0F0F0;
+}
+aside ul{
+    padding: 0 10px;
+}
+.above-section {
+    display: flex;
+}
+.above-section .content{
+    width: 100%;
+}
+header{
+    background-color: #454545;
+    padding: 25px;
+    color: #fff;
+    display: flex;
+}
+
+header img{
+    margin-right: 20px;
+}
+
+header .text-content{
+    position: relative;
+}
+header .text-content .upper-content p{
+    margin: 0;
+}
+header .text-content .lower-content{
+    position: absolute;
+    bottom: 10px;
+}
+header .text-content .lower-content span{
+    margin-right: 5px;
+}
+header .text-content .lower-content span i{
+    font-size: 20px;
+}
+
+main div{
+    margin-top: 10px;
+}
+main ul{
+    padding: 0;
+    margin-left: 10px;
+}
+
+main ul li{
+    display: flex;
+    padding-left: 15px;    
+}
+
+/* main ul:nth-child(1){
+} */
+
+main ul li:nth-child(odd){
+    background-color: #fff;
+}
+
+main ul li:nth-child(even){
+    background-color: #F0F0F0;
+}
+
+main ul li p{
+    width: 25%;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    display: flex;
 }
