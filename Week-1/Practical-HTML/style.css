@@ -9,8 +9,15 @@ ul{
 .side-bar{
     background-color: #F0F0F0;
 }
+aside{
+    height: 100%;
+}
 aside ul{
     padding: 0 10px;
+}
+
+aside li{
+    height: 16%;
 }
 .above-section {
     display: flex;
