@@ -14,6 +14,7 @@ aside{
 }
 aside ul{
     padding: 0 10px;
+    height: 100%;
 }
 
 aside li{
@@ -85,4 +86,44 @@ footer{
     position: fixed;
     bottom: 0;
     display: flex;
+    width: 100%;
+    background-color: #43689b;
+    padding: 10px;
+
+}
+footer .album-image{
+    margin-right: 10px;
+}
+
+footer .album-image img{
+    width: auto;
+    max-width: 100px;
+}
+
+footer .controls-area{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+footer .controls-area .song-info{
+    
+}
+
+footer .controls-area .song-info p{
+    margin: 0;
+    margin-bottom: 10px;
+}
+footer .controls-area .controls-wrapper {
+    width: 60%;
+    display: flex;
+}
+footer .controls-area .controls-wrapper .controls{
+    display: flex;
+    justify-content: space-around;
+    margin: auto 0;
+    width: 100%;
+}
+footer .controls-area .controls span{
+    font-weight: bold;
 }
