@@ -1,0 +1,35 @@
+
+header {
+    text-align: center;
+}
+
+main .articles-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .articles-wrapper article{
+    width: 50%;
+}
+
+main .articles-wrapper article .img{
+    text-align: center;
+}
+
+main .articles-wrapper article .img img{
+    max-width: 80%;
+    width: auto;
+}
+
+
+main .articles-wrapper article h2{
+    text-align: center;
+}
+
+main .articles-wrapper article p{
+    padding: 10px;
+}
+
+main .form-wrapper{
+    
+}
