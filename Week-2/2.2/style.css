@@ -45,12 +45,4 @@
 .main:hover .box-2,.main:hover .box-3{
     transform: rotate(-90deg);
 }
-/* 
-.main:hover .box-3{
-    transform: rotate(-90deg);
-}
-
-.main:hover .box-4{
-    transform: rotate(90deg);
-} */
   
