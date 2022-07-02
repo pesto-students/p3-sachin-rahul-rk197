@@ -1,14 +1,19 @@
-function createStack() {
-    let items = [];
-    this.push = function(ele){
-        items.push(ele)
+function numbersSum() {
+    var total = 0;
+    for(var i = 0; i < arguments.length; i++){
+        total += arguments[i];
     }
-    this.pop = function(){
-        items.pop();
-    }
+    return total;
 }
-const stack = new createStack();
-stack.push(10);
-stack.push(5);
-stack.pop();// => 5
-console.log(stack.items);
+// bind method
+var sum = numbersSum(1,2,3);
+console.log(sum);
+
+// call method
+var sum = numbersSum.call(null,4,5,6);
+console.log(sum);
+
+// apply method
+var numbers = [7,8,9];
+var sum = numbersSum.apply(null, numbers);
+console.log(sum);
