@@ -1,3 +1,4 @@
+// its TC is O(n)
 function findPairDifference(arr, target) {
     // will create map to plot values
     let obj = new Map();

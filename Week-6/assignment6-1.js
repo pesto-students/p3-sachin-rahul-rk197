@@ -1,3 +1,4 @@
+// this problem is related to sliding window concept
 function getMaxSubarray(arr, size) {
 
     // check if input is array

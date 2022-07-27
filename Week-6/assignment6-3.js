@@ -1,3 +1,4 @@
+// its TC is O(n)
 function segregated012(arr) {
     if (!Array.isArray(arr)) {
         throw "error";

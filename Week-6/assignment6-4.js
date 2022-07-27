@@ -1,4 +1,5 @@
 // this problem is related to sliding window concept
+// its TC is O(n)
 function bestTimeStock(arr, n) {
 
     let buy = arr[0], sell = 0, profit = 0;

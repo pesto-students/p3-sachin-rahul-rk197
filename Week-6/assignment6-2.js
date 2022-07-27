@@ -1,3 +1,4 @@
+// its TC is O(m*n)
 function spiralPrint(m, n, arr) {
     let counter, startRowIndex = 0, startColIndex = 0;
 
