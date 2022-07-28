@@ -1,4 +1,5 @@
 // this problem is related to sliding window concept
+// its TC is O(n)
 function getMaxSubarray(arr, size) {
 
     // check if input is array
