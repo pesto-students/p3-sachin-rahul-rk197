@@ -1,20 +1,23 @@
 import { useState } from 'react';
-import UrlInput from './Components/UrlInput';
-import UrlOutputs from './Components/UrlOutputs';
+import {
+  Route,
+  Routes,
+  useLocation,
+  useNavigate
+} from "react-router-dom";
+import Header from './Components/Header';
+import Home from './Home';
 import './App.css';
 
 function App() {
 
-  const [shortUrls, setShortUrls] = useState([])
-  const handleUrls = (url) => {
-    let newUrls = [...shortUrls];
-    newUrls.push(url);
-    setShortUrls(newUrls);
-  }
   return (
     <div className="App">
-      <UrlInput handleUrls={handleUrls} />
-      <UrlOutputs shortUrls={shortUrls} />
+      <Header />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        
+      </Routes>
     </div>
   );
 }
