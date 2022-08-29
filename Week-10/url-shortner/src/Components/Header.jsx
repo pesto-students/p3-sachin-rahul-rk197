@@ -7,7 +7,7 @@ function Header() {
       <div>
         <h2>Shortly</h2>
       </div>
-      <div>
+      <div className='main-functions'>
         <Link to="/ab" >Features</Link>
         <Link to="/ab" >Pricing</Link>
         <Link to="/ab" >Resources</Link>
