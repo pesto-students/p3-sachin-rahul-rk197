@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+.light-on{
+  color: #000;
+  background-color: #fff;
+}
+
+.light-off{
+  color: #fff;
+  background-color: #000;
+}
+
+.main-area{
+  height: 90vh;
+  margin: 50px;
+}
